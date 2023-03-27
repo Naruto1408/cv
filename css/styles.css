@@ -1,0 +1,39 @@
+body{
+    background-color: #ECF2FF;
+}
+h1{
+    color: #3E54AC;
+    text-align: center;
+}
+h3{
+    color: #3E54AC;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+hr {
+    border-style:none;
+    border-top: dotted;
+    width: 5%;
+    border-width: 10px;
+    border-color:#655DBB;
+    list-style-type:circle;
+    font-size: 20%;
+}
+th{
+    color: #655DBB;
+}
+a{
+    text-decoration-line: none;
+}
+a:hover{
+    color: #EBB02D;
+}
+input:hover{
+    background-color:  #BFACE2;
+}
+
+.circular{
+    border-radius: 100%;
+}
