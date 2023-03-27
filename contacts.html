@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me!</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Contact!</h1>
@@ -14,17 +15,18 @@
         <li>LinkedTree: <a href="https://linktr.ee/nestor_zasymenko?utm_source=linktree_profile_share&ltsid=887c310f-3143-496f-9e84-6bf9ca024082">Here!</a></li>
     </ul>
     <hr>
-    <form action="mailto:nestor.zasymenko@gmail.com" method="post">
+    <form action="mailto:nestor.zasymenko@gmail.com" method="post" enctype="text/plain">
         <label for="text">Your Name:</label>
-        <input type="text">
+        <input type="text" name="Your Name">
         <br>
         <label for="text">Your Email:</label>
         <input type="email" name="Your Email" id="">
         <br>
         <label for="text">Your Message:</label>
         <br>
-        <textarea name="Your Message" id="" cols="30" rows="10"></textarea>
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea><br>
         <input type="submit">
-    </form>
+    </form><br>
+    <form action="index.html"><input type="submit" value="Go back to CV!"></form>
 </body>
 </html>
